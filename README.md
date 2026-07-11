@@ -2,22 +2,28 @@
 
 Blender assets for a Dune / Arrakis environment in a smooth stylized "Paul" aesthetic (modular smooth meshes, PBR materials, game-ready for 2.5D side-scroller).
 
-## Assets included
+## Folder structure
 
-- **Dune_Arrakis_Master.blend** : Full environment (terrain with dunes, cliffs, canyons, ruins, oasis, tech piles, underground, environmental sandworm elements)
-- **Dune_Arrakis_Master_Optimized.blend** : Performance-optimized version (reduced faces, lighting added)
-- Individual modular pieces: Environment_With_Skybox, Decor_Architecture, Decor_Nature_Props, Sabre_Laser, perso V2 (Paul-style character)
-- **Futurist-gun.blend** : Additional weapon asset
-- Renders and reference docs
+- `blends/` — All .blend files (main consolidated + optimized + modular pieces)
+- `renders/` — Preview renders
+- `docs/` — Reference documents (e.g. sandworm)
+- `README.md` — This file
 
-## Style notes
+## Main assets
+
+- `blends/Dune_Arrakis_Master.blend` — Full environment (terrain/dunes/cliffs/canyons/ruins/oasis/tech/underground/sandworm elements)
+- `blends/Dune_Arrakis_Master_Optimized.blend` — Performance version (faces reduced, Arrakis lighting added)
+- Modular: Environment_With_Skybox, Decor_Architecture, Decor_Nature_Props
+- `blends/Sabre_Laser.blend` + `blends/perso V2.blend`
+- `blends/Futurist-gun.blend` — Additional weapon
+
+## Style & notes
 - Smooth low-to-mid poly, shade smooth
-- PBR materials (Principled BSDF)
-- Side-scrolling ortho camera setup
-- Golden Arrakis lighting
+- PBR (Principled BSDF)
+- Side-scroll ortho camera
+- Golden Arrakis sunset lighting
 
-## Performance
-Attention aux performances : le terrain et skybox ont été décimés pour éviter trop de faces.
+**Performance**: Terrain & skybox decimated to avoid too many faces (as requested).
 
 ## References
-See Ver_des_Sables_Description.md for sandworm / Shai-Hulud references.
+See `docs/Ver_des_Sables_Description.md` for Shai-Hulud / sandworm aggregated image refs and single-block description.
